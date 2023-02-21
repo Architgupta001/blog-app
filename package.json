@@ -1,0 +1,29 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "It is a demo blog app for practice.",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm start",
+    "build": "echo success",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Architgupta001/blog-app.git"
+  },
+  "keywords": [
+    "blog-app",
+    "blog"
+  ],
+  "author": "Archit Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Architgupta001/blog-app/issues"
+  },
+  "homepage": "https://github.com/Architgupta001/blog-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
