@@ -14,6 +14,10 @@ const aboutContent = "hbuibihj";
 const contactContent = "afwjhgli";
 
 
+app.get('/',(req,res)=>{
+    res.render('home',{});
+})
+
 app.listen(3000,()=>{
     console.log("server started on port 3000....");
 })
