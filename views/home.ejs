@@ -5,7 +5,8 @@
 
 <% for(var i=0; i<publishPosts.length; i++){ %>
     <h1> <%= publishPosts[i].title %> </h1>
-    <p> <%= publishPosts[i].body %> </p>
+    <p> <%= publishPosts[i].body.substring(0,99) %>.... 
+    <a href="/posts/<%= publishPosts[i].title %>" style="cursor: pointer;">Read More</a> </p>
 <% } %>
 
 <%- include('partials/footer') -%>
